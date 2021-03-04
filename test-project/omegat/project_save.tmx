@@ -4,6 +4,278 @@
   <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.2_0_6a661c5e0" segtype="sentence" srclang="ZH-CN"/>
   <body>
 <!-- Default translations -->
+    <tu>
+      <tuv lang="ZH-CN">
+        <seg>&lt;g1&gt;TiDB Operator&lt;/g1&gt; 是 Kubernetes 上的 TiDB 集群自动运维系统，提供包括部署、升级、扩缩容、备份恢复、配置变更的 TiDB 全生命周期管理。</seg>
+      </tuv>
+      <tuv lang="EN" changeid="huangran" changedate="20210304T093036Z" creationid="huangran" creationdate="20210304T093036Z">
+        <seg>&lt;g1&gt;TiDB Operator&lt;/g1&gt; is an automatic operation system for TiDB clusters in Kubernetes. It provides a full management life-cycle for TiDB including deployment, upgrades, scaling, backup, fail-over, and configuration changes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ZH-CN">
+        <seg>&lt;g1&gt;TiDB 集群升级&lt;/g1&gt;</seg>
+      </tuv>
+      <tuv lang="EN" changeid="huangran" changedate="20210304T093913Z" creationid="huangran" creationdate="20210304T093913Z">
+        <seg>&lt;g1&gt;Upgrade TiDB Cluster&lt;/g1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ZH-CN">
+        <seg>&lt;g1&gt;TiDB 集群备份与恢复&lt;/g1&gt;</seg>
+      </tuv>
+      <tuv lang="EN" changeid="huangran" changedate="20210304T094001Z" creationid="huangran" creationdate="20210304T094001Z">
+        <seg>&lt;g1&gt;Back up and Restore a TiDB Cluster&lt;/g1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ZH-CN">
+        <seg>&lt;g1&gt;TiDB 集群扩缩容&lt;/g1&gt;</seg>
+      </tuv>
+      <tuv lang="EN" changeid="huangran" changedate="20210304T093933Z" creationid="huangran" creationdate="20210304T093933Z">
+        <seg>&lt;g1&gt;Scale TiDB Cluster&lt;/g1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ZH-CN">
+        <seg>&lt;g1&gt;TiDB 集群配置变更&lt;/g1&gt;</seg>
+      </tuv>
+      <tuv lang="EN" changeid="huangran" changedate="20210304T093952Z" creationid="huangran" creationdate="20210304T093952Z">
+        <seg>&lt;g1&gt;Change the Configuration of TiDB Cluster&lt;/g1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ZH-CN">
+        <seg>&lt;g1&gt;查看 TiDB 日志&lt;/g1&gt;</seg>
+      </tuv>
+      <tuv lang="EN" changeid="huangran" changedate="20210304T095602Z" creationid="huangran" creationdate="20210304T095602Z">
+        <seg>&lt;g1&gt;View TiDB Logs in Kubernetes&lt;/g1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ZH-CN">
+        <seg>&lt;g1&gt;注意：&lt;/g1&gt;</seg>
+      </tuv>
+      <tuv lang="EN" changeid="huangran" changedate="20210304T093104Z" creationid="huangran" creationdate="20210304T093104Z">
+        <seg>&lt;g1&gt;Note:&lt;/g1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ZH-CN">
+        <seg>&lt;g1&gt;监控 TiDB 集群&lt;/g1&gt;</seg>
+      </tuv>
+      <tuv lang="EN" changeid="huangran" changedate="20210304T094018Z" creationid="huangran" creationdate="20210304T094018Z">
+        <seg>&lt;g1&gt;Monitor a TiDB Cluster in Kubernetes&lt;/g1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ZH-CN">
+        <seg>&lt;g1&gt;维护 TiDB 所在的 Kubernetes 节点&lt;/g1&gt;</seg>
+      </tuv>
+      <tuv lang="EN" changeid="huangran" changedate="20210304T095610Z" creationid="huangran" creationdate="20210304T095610Z">
+        <seg>&lt;g1&gt;Maintain Kubernetes Nodes that Hold the TiDB Cluster&lt;/g1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ZH-CN">
+        <seg>&lt;g1&gt;访问 TiDB 集群&lt;/g1&gt;</seg>
+      </tuv>
+      <tuv lang="EN" changeid="huangran" changedate="20210304T093942Z" creationid="huangran" creationdate="20210304T093859Z">
+        <seg>&lt;g1&gt;Access the TiDB Cluster&lt;/g1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ZH-CN">
+        <seg>&lt;g1&gt;部署 TiDB 集群&lt;/g1&gt;</seg>
+      </tuv>
+      <tuv lang="EN" changeid="huangran" changedate="20210304T093924Z" creationid="huangran" creationdate="20210304T093846Z">
+        <seg>&lt;g1&gt;Deploy the TiDB Cluster&lt;/g1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ZH-CN">
+        <seg>&lt;g1&gt;配置 TiDB 集群故障自动转移&lt;/g1&gt;</seg>
+      </tuv>
+      <tuv lang="EN" changeid="huangran" changedate="20210304T094009Z" creationid="huangran" creationdate="20210304T094009Z">
+        <seg>&lt;g1&gt;Automatic Failover&lt;/g1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ZH-CN">
+        <seg>Kubernetes 上的 TiDB 提供了专用的命令行工具 &lt;g1&gt;tkctl&lt;/g1&gt; 用于集群管理和辅助诊断，同时，在 Kubernetes 上，TiDB 的部分生态工具的使用方法也有所不同，你可以：</seg>
+      </tuv>
+      <tuv lang="EN" changeid="huangran" changedate="20210304T095755Z" creationid="huangran" creationdate="20210304T095755Z">
+        <seg>TiDB in Kubernetes provides a dedicated command-line tool &lt;g1&gt;tkctl&lt;/g1&gt; for cluster management and auxiliary diagnostics. Meanwhile, some of TiDB's tools are used differently in Kubernetes. You can:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ZH-CN">
+        <seg>TiDB Operator 与适用的 TiDB 版本的对应关系如下：</seg>
+      </tuv>
+      <tuv lang="EN" changeid="huangran" changedate="20210304T093135Z" creationid="huangran" creationdate="20210304T093135Z">
+        <seg>The corresponding relationship between TiDB Operator and TiDB versions is as follows:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ZH-CN">
+        <seg>TiDB Operator 提供了多种方式来部署 Kubernetes 上的 TiDB 集群：</seg>
+      </tuv>
+      <tuv lang="EN" changeid="huangran" changedate="20210304T093351Z" creationid="huangran" creationdate="20210304T093351Z">
+        <seg>TiDB Operator provides several ways to deploy TiDB clusters in Kubernetes:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ZH-CN">
+        <seg>TiDB Operator 版本</seg>
+      </tuv>
+      <tuv lang="EN" changeid="huangran" changedate="20210304T093229Z" creationid="huangran" creationdate="20210304T093229Z">
+        <seg>TiDB Operator version</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ZH-CN">
+        <seg>TiDB Operator 简介</seg>
+      </tuv>
+      <tuv lang="EN" changeid="huangran" changedate="20210304T092545Z" creationid="huangran" creationdate="20210304T092545Z">
+        <seg>TiDB Operator Overview</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ZH-CN">
+        <seg>使用 TiDB Operator 管理 TiDB 集群</seg>
+      </tuv>
+      <tuv lang="EN" changeid="huangran" changedate="20210304T093335Z" creationid="huangran" creationdate="20210304T093335Z">
+        <seg>Manage TiDB clusters using TiDB Operator</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ZH-CN">
+        <seg>借助 TiDB Operator，TiDB 可以无缝运行在公有云或私有部署的 Kubernetes 集群上。</seg>
+      </tuv>
+      <tuv lang="EN" changeid="huangran" changedate="20210304T093044Z" creationid="huangran" creationdate="20210304T093044Z">
+        <seg>With TiDB Operator, TiDB can run seamlessly in the Kubernetes clusters deployed on a public or private cloud.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ZH-CN">
+        <seg>公有云：参考 &lt;g1&gt;AWS 部署文档&lt;/g1&gt;，&lt;g2&gt;GKE 部署文档 (beta)&lt;/g2&gt;，或&lt;g3&gt;阿里云部署文档&lt;/g3&gt;在对应的公有云上一键部署生产可用的 TiDB 集群并进行后续的运维管理；</seg>
+      </tuv>
+      <tuv lang="EN" changeid="huangran" changedate="20210304T093542Z" creationid="huangran" creationdate="20210304T093542Z">
+        <seg>On public cloud: &lt;g1&gt;Deploy TiDB on AWS EKS&lt;/g1&gt;，&lt;g2&gt;Deploy TiDB on GCP GKE (beta)&lt;/g2&gt;, or&lt;g3&gt;Deploy TiDB on Alibaba Cloud ACK&lt;/g3&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ZH-CN">
+        <seg>参考 &lt;g1&gt;&lt;g2&gt;tkctl&lt;/g2&gt; 使用指南&lt;/g1&gt; 来使用 &lt;g3&gt;tkctl&lt;/g3&gt;；</seg>
+      </tuv>
+      <tuv lang="EN" changeid="huangran" changedate="20210304T095901Z" creationid="huangran" creationdate="20210304T095901Z">
+        <seg>Use &lt;g3&gt;tkctl&lt;/g3&gt; according to &lt;g1&gt;&lt;g2&gt;tkctl&lt;/g2&gt; Guide&lt;/g1&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ZH-CN">
+        <seg>参考 &lt;g1&gt;Kubernetes 上的 TiDB 故障诊断&lt;/g1&gt;解决故障。</seg>
+      </tuv>
+      <tuv lang="EN" changeid="huangran" changedate="20210304T095719Z" creationid="huangran" creationdate="20210304T095708Z">
+        <seg>See &lt;g1&gt;Troubleshoot TiDB in Kubernetes&lt;/g1&gt; to shoot troubles.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ZH-CN">
+        <seg>参考 &lt;g1&gt;Kubernetes 上的 TiDB 相关工具使用指南&lt;/g1&gt;来了解 TiDB 生态工具在 Kubernetes 上的使用方法。</seg>
+      </tuv>
+      <tuv lang="EN" changeid="huangran" changedate="20210304T095934Z" creationid="huangran" creationdate="20210304T095920Z">
+        <seg>See &lt;g1&gt;Tools in Kubernetes&lt;/g1&gt; to understand how TiDB tools are used in Kubernetes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ZH-CN">
+        <seg>在任何环境上部署前，都可以参考 &lt;g1&gt;TiDB 集群配置&lt;/g1&gt;来自定义 TiDB 配置。</seg>
+      </tuv>
+      <tuv lang="EN" changeid="huangran" changedate="20210304T093814Z" creationid="huangran" creationdate="20210304T093804Z">
+        <seg>Before deploying TiDB on any of the above two environments, you can always refer to &lt;g1&gt;TiDB Cluster Configuration Document&lt;/g1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ZH-CN">
+        <seg>对于生产级 TiDB 集群，你还需要参考 &lt;g3&gt;TiDB 集群环境要求&lt;/g3&gt;调整 Kubernetes 集群配置并根据&lt;g4&gt;本地 PV 配置&lt;/g4&gt;为你的 Kubernetes 集群配置本地 PV，以满足 TiKV 的低延迟本地存储需求。</seg>
+      </tuv>
+      <tuv lang="EN" changeid="huangran" changedate="20210304T093740Z" creationid="huangran" creationdate="20210304T093740Z">
+        <seg>You also need to adjust the configuration of the Kubernetes cluster based on &lt;g3&gt;Prerequisites for TiDB in Kubernetes&lt;/g3&gt; and configure the local PV for your Kubernetes cluster to achieve low latency of local storage for TiKV according to &lt;g4&gt;Local PV Configuration&lt;/g4&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ZH-CN">
+        <seg>当集群出现问题需要进行诊断时，你可以：</seg>
+      </tuv>
+      <tuv lang="EN" changeid="huangran" changedate="20210304T095619Z" creationid="huangran" creationdate="20210304T095619Z">
+        <seg>When a problem occurs and the cluster needs diagnosis, you can:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ZH-CN">
+        <seg>最后，当 TiDB Operator 发布新版本时，你可以参考&lt;g1&gt;升级 TiDB Operator&lt;/g1&gt; 进行版本更新。</seg>
+      </tuv>
+      <tuv lang="EN" changeid="huangran" changedate="20210304T100006Z" creationid="huangran" creationdate="20210304T100006Z">
+        <seg>Finally, when a new version of TiDB Operator is released, you can refer to &lt;g1&gt;Upgrade TiDB Operator&lt;/g1&gt; to upgrade to the latest version.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ZH-CN">
+        <seg>查阅 &lt;g1&gt;Kubernetes 上的 TiDB FAQ&lt;/g1&gt; 寻找是否存在现成的解决办法；</seg>
+      </tuv>
+      <tuv lang="EN" changeid="huangran" changedate="20210304T095655Z" creationid="huangran" creationdate="20210304T095646Z">
+        <seg>See &lt;g1&gt;TiDB FAQs in Kubernetes&lt;/g1&gt; for any available solution;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ZH-CN">
+        <seg>每个 Kubernetes 集群中只能部署一个 TiDB Operator。</seg>
+      </tuv>
+      <tuv lang="EN" changeid="huangran" changedate="20210304T093121Z" creationid="huangran" creationdate="20210304T093121Z">
+        <seg>You can only deploy one TiDB Operator in a Kubernetes cluster.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ZH-CN">
+        <seg>测试环境：</seg>
+      </tuv>
+      <tuv lang="EN" changeid="huangran" changedate="20210304T093400Z" creationid="huangran" creationdate="20210304T093400Z">
+        <seg>For test environment:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ZH-CN">
+        <seg>现有 Kubernetes 集群：首先按照&lt;g1&gt;部署 TiDB Operator&lt;/g1&gt;在集群中安装 TiDB Operator，再根据&lt;g2&gt;在标准 Kubernetes 集群上部署 TiDB 集群&lt;/g2&gt;来部署你的 TiDB 集群。</seg>
+      </tuv>
+      <tuv lang="EN" changeid="huangran" changedate="20210304T093643Z" creationid="huangran" creationdate="20210304T093611Z">
+        <seg>In an existing Kubernetes cluster: First install TiDB Operator in a Kubernetes cluster according to &lt;g1&gt;Deploy TiDB Operator in Kubernetes&lt;/g1&gt;, then deploy your TiDB clusters according to &lt;g2&gt;Deploy TiDB in General Kubernetes&lt;/g2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ZH-CN">
+        <seg>生产环境：</seg>
+      </tuv>
+      <tuv lang="EN" changeid="huangran" changedate="20210304T093429Z" creationid="huangran" creationdate="20210304T093429Z">
+        <seg>For production environment:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ZH-CN">
+        <seg>适用的 TiDB 版本</seg>
+      </tuv>
+      <tuv lang="EN" changeid="huangran" changedate="20210304T093243Z" creationid="huangran" creationdate="20210304T093243Z">
+        <seg>Compatible TiDB versions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ZH-CN">
+        <seg>部署完成后，你可以参考下面的文档进行 Kubernetes 上 TiDB 集群的使用和运维：</seg>
+      </tuv>
+      <tuv lang="EN" changeid="huangran" changedate="20210304T093828Z" creationid="huangran" creationdate="20210304T093828Z">
+        <seg>After the deployment is complete, see the following documents to use, operate, and maintain TiDB clusters in Kubernetes:</seg>
+      </tuv>
+    </tu>
 <!-- Alternative translations -->
   </body>
 </tmx>
